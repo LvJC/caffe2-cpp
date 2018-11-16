@@ -83,3 +83,10 @@ P( truck | street.jpg [828,153,187,230] ) = 0.909398
 P( truck | street.jpg [258,181,78,102] ) = 0.771324
 P( couch | street.jpg [442,310,175,186] ) = 0.985259
 ```
+
+---
+## troubleshooting
+### [75%] error in generating generated_math_gpu.cu.o
+Here is a serious error when I am trying to make.
+[Solution] Refer to [Pytorch issue#7426](https://github.com/pytorch/pytorch/issues/7426). Tarlen's answer solved.
+
